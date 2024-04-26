@@ -85,6 +85,7 @@ font-size: 22px;
   }
 }
 .landing-page-wrapper{
+  height: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,9 +132,8 @@ button:hover{
 }
 footer{
   width: 100%;
-  position: absolute;
   bottom: 0;
-  background: linear-gradient(to right, #00093c, #2d0b00);
+  background: linear-gradient(to right, black, grey);
   color: #fff;
   padding: 100px 0 30px;
   border-top-left-radius: 125px;
@@ -155,7 +155,7 @@ footer{
 .col:nth-child(2), .col:nth-child(3){
   flex-basis: 15%;
 }
-.logo{
+.logo1{
   width: 80px;
   margin-bottom: 30px;
 }
